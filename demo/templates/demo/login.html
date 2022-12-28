@@ -1,0 +1,10 @@
+{% block content %}
+
+<form method='POST'>{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+    {% comment %} <a href="{% url 'notes.list'%}" class="btn btn-secondary">Cancel</a> {% endcomment %}
+</form>
+
+
+{% endblock %}
