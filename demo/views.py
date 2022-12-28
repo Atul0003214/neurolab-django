@@ -5,6 +5,7 @@ from django.views.generic import TemplateView
 from django.views.generic import ListView, DetailView,CreateView,UpdateView
 from django.contrib.auth.views import LoginView,LogoutView
 # Create your views here.
+# Create your views here.
 
 from . models import Cart
 
